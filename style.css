@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Sarala:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    background-color: rgb(0, 255, 0, .1);
+}
+body > header{
+    padding: 16px 0;
+    width: auto;
+    background-color: #2f3640;
+    margin-bottom: 5px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+    
+}
+.cabecalho-menu-item{
+    display: inline;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #f5f6fa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.cabecalho-menu-item:hover {
+    
+    color: #f5f6fa;
+    background-color: rgba(90, 105, 126, 0.5);
+    padding: 5px;
+    
+}
+.container h1{
+    color: #f5f6fa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sports {
+    background-color: rgb(0, 255, 0, .1);
+    padding-bottom: 16px;
+    
+}
+.economy{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    background-color: rgba(251, 255, 0, 0.479);
+    
+
+}
+.entretenimento{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    background-color: rgba(147, 241, 248, 0.753);
+    
+
+}
+.tecnologia{
+    padding-top: 10px;
+    padding-bottom: 16px;
+    background-color: rgba(253, 110, 100, 0.753);
+    
+
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.article article img{
+    height: 300px;
+    align-items: center;
+    margin-top: 5px;
+}
+.article article{
+    width: 30%;
+    
+    
+}
+.article article p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+    margin: 5px 0 5px 0;
+    text-align:left;
+    
+}
+.article article h3{
+    
+    margin: 5px 0 0 0;
+
+}
+.article article a{
+    
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.botao1{
+    background-color: #009432;
+
+}
+.botao2{
+    background-color: #79721b;
+    
+}
+.botao3{
+    background-color: #134446;
+}
+.botao4{
+    background-color: #94002c;
+    
+}
+.article article a:hover{
+    
+    text-decoration: underline;
+
+}
+section h2{
+    font-size: 32px;
+    padding: 10px 0 10px 3px;
+    border-left: 20px solid black;
+}
+
